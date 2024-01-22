@@ -3,7 +3,14 @@
 * Shift background to yellow at errors = 4; 
 * shift to red at errors = 5.
 */
-*// Add into function badGuess();
+
+// Add into function badGuess();
+function badGuess(){
+    @ nextPartID++
+    @ }
+   + checkBackground();
+
+// New Function
 function checkBackground() {
     +let snowman = document.getElementById ("snowman");
     +if(nextPartId == 4){
