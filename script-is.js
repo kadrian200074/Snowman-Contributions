@@ -2,6 +2,10 @@
  * PATCH EFFECT: Makes a keyboard.
  */
 
+function setup(){
+  @before last }
+  + makeKeyboard()
+ 
   + function makeKeyBoard() {
   +  let keyBoard = document.createElement("div");
   +  let guesses = document.getElementById("guesses");
